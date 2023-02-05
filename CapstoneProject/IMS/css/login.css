@@ -1,0 +1,672 @@
+*,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
+
+/*------------Loginpage Style-------------------*/
+
+body#Login-Body{
+	background: url('../images/loginbackground.jpg') no-repeat center center fixed;
+	background-size: cover;
+	font-family: times new roman;
+}
+
+div.Login-Header{
+	text-align: center;
+}
+
+div.Login-Header{
+	margin-bottom: 35px;
+}
+
+div.Login-Header h1{
+	font-family: cambria;
+	font-size: 80px;
+	font-weight: bold;
+	margin-top: 30px;
+	padding: 0px;
+}
+
+div.Login-Header h2{
+	font-family: times new roman;
+	font-size: 45px;
+	margin: 0px;
+	display: inline-block;
+}
+
+div.Login-Header h2:after{
+	content:'';
+	display: block;
+	height: 5px;
+	background: #000000;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+div.Login-Body form{
+	margin: 0 auto;
+	width: 400px;
+	background: rgba(0, 0, 0, 0.20);
+	padding: 50px 75px;
+	border: 2px solid #ffff;
+	border-radius: 10px;
+}
+
+div.LoginInputContainer{
+	margin-top: 20px;
+
+}
+
+div.LoginInputContainer label{
+	display: block;
+	text-transform: uppercase;
+	font-style: oblique;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+div.LoginInputContainer input{
+	height: 30px;
+	width: 100%;
+	font-style: oblique;
+	border: 2px solid #0000;
+	font-size: 20px;
+	padding: 5px;
+	text-align: center;
+}
+
+div.LoginButtonContainer{
+	margin-top: 30px;
+	text-align: center;
+}
+
+div.LoginButtonContainer button{
+	font-size: 20px;
+	padding: 12px 40px;
+	background: #2196F3;
+	border: none;
+	color: #ffff;
+	border-radius: 10px;
+
+}
+
+div.LoginButtonContainer button:hover{
+	color: #ffff;
+	outline-color: transparent;
+	outline-style: solid;
+	box-shadow: 0 0 0 2px #ffff
+}
+
+div#errorMessage{
+	background: #ffff;
+	color: darkred;
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+}
+
+/*----------- Homepage Style--------------------*/
+
+div.Header{
+	width: 100%;
+	background: #ffff;
+	padding: 10px;
+	text-align: right;
+}
+
+div.Header a{
+	font-size: 30px;
+	color: #000000;
+	padding: 5px 10px;
+	text-decoration: none;
+	border:  1px solid rgba(0, 0, 0, 0.25);
+}
+
+div.Header a:hover{
+	font size: 31px;
+	border:  2px solid #000000;
+	border-radius: 5px;
+}
+
+div.Banner{
+	background: url('../images/loginbackground.jpg') no-repeat center center fixed;
+	background-size: cover;
+	font-family: times new roman;
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+
+div.HomepageContainer{
+	width: 100%;
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+div.BannerHeader{
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+div.BannerHeader h1{
+	font-family: cambria;
+	font-size: 80px;
+	font-weight: bold;
+	padding: 0px;
+	margin-bottom: 20px;
+}
+
+div.BannerHeader h2{
+	font-family: times new roman;
+	font-size: 45px;
+	margin-top: -30px;
+	line-height: 100%;
+	text-align: center;
+}
+
+p.Tagline{
+	font-family:  times new roman;
+	font-size: 30px;
+	margin-top: 35PX;
+	margin: 0px;
+}
+
+div.Icons{
+	margin-top: 10px;
+}
+
+div.Icons a{
+	font-size: 30px;
+	margin-left: 15px;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #D3D2D2;
+	border-radius: 10px;
+}
+
+div.Icons a:first-child{
+	margin-left: 0px;
+
+}
+
+div.Icons a:hover{
+	color: #ffff;
+	font-size: 35px;
+	outline-color: #000000;
+	outline-style: solid;
+	box-shadow: 0 0 0 2px #2196F3
+}
+
+div.HomepageFeatures{
+	display: flex;
+	flex-direction: row;
+	padding: 90px 0px;
+}
+
+div.Feature{
+	padding: 10px 20px;
+	text-align: center;
+}
+
+div.Feature span.FeatureIcon{
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	font-size: 50px;
+	font-display: center;
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+	padding-left: 3px;
+	padding-top: 15px;
+	border-radius: 50%;
+	border-color: #000000;
+	margin:  10px;
+}
+
+div.Feature span.FeatureIcon:hover{
+	color: #ffff;
+	font-size: 55px;
+	outline-color: #000000;
+	outline-style: solid;
+	box-shadow: 0 0 0 2px #2196F3
+}
+
+div.Feature h4.FeatureTitle{
+	margin-bottom: 10px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+div.Feature p.FeatureDescription{
+	font-size: 20px;
+}
+
+div.HomepageNotification{
+	background: rgba(0, 0, 0, 0.15);
+	padding: 50px 0px
+}
+
+div.HomepageNotificationContainer{
+	display: flex;
+	flex-direction: row ;
+}
+
+div.HomepageNotification h4{
+	margin-bottom: 10px;
+	font-size: 40px;
+	font-family: times new roman;
+}
+
+div.HomepageNotification p{
+	color: 000000;
+	font-family:  times new roman;
+	font-size: 27px;
+	margin-bottom: 20px;
+	line-height: 125%;
+}
+
+div.EmailFormContainer{
+	width: 80%;
+	position: relative;
+	border-radius: 10px;
+}
+
+div.EmailFormContainer input{
+	width: 60%;
+	padding: 8px 5px;
+	font-size: 24px;
+	border-radius: 10px;
+}
+
+div.EmailFormContainer button{
+	background: rgba(0, 0, 0, 0.5);
+	width: 15%;
+	padding: 20 px 40px;
+	right: 10;
+	font-size: 29px;
+	border-radius: 6px;
+	color: #ffff;
+	height: 100%;
+}
+
+div.EmailFormContainer button:hover{
+	color: #ffff;
+	font-size: 30px;
+	outline-color: #000000;
+	outline-style: solid;
+	box-shadow: 0 0 0 1px #2196F3;
+}
+
+div.BottomContainer{
+	margin-top: 75px;
+	text-align: center;
+	font-size: 25px;
+}
+
+div.Socials{
+	text-align: center;
+	padding: 100px 0 50px 0px;
+}
+
+h3.SocialHeader{
+	font-size: 32px;
+}
+
+div.SocialIconsContainer a{
+	margin-top: 20px;
+	margin-bottom: 50px;
+	font-size: 30px;
+	height: 75px;	
+	width:  75px;
+	display: inline-block;
+	padding-top: 15px;
+	background: rgba(0, 0, 0, 0.15);
+	border-radius: 50%;
+	color: #ffff;
+	margin-left: 20px;
+}
+
+div.SocialIconsContainer a:hover{
+	background: #000000;
+	transition: 0.3s all;
+}
+
+div.Footer{
+	background: url('../images/loginbackground.jpg') no-repeat center fixed;
+	text-align: center;
+	background-size: cover;
+	font-family: times new roman;
+	padding: 50px
+}
+
+div.Footer a{
+	color: #000000;
+	margin-left: 40px;
+	text-decoration: none;
+	font-size: 22px;
+}
+
+div.Footer a:hover{
+	font-weight: bold;
+	transition: 0.2s;
+}
+
+/*------------Dashboard Style---------------------*/
+
+#Dashboard_Main{
+	display: flex;
+	flex-direction: row;
+}
+
+div.Dashboard_Sidebar{
+	width: 20%;
+	background: rgba(0, 0, 0, 0.15);
+	height: 100vh;
+}
+
+div.Dashboard_Content_Container{
+	width: 80%;
+	background: url('../images/loginbackground.jpg');
+}
+
+h1.Dashboard_Sidebar_Header{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+h2.Dashboard_Sidebar_Welcome{
+	font-size: 28px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+div.Dashboard_Sidebar_User{
+	text-align: center;
+	position: relative;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #ffff;
+}
+
+div.Dashboard_Sidebar_User img{
+	width: 90px;
+	display: inline-block;
+	border-radius: 50%;
+	border: 2px solid rgba(0, 0, 0, 0.15);
+	vertical-align: middle;
+}
+
+div.Dashboard_Sidebar_User span{
+	position: relative;
+	font-size: 24px;
+	color: #000000;
+	display: inline-block;
+
+}
+ul.Dashboard_Sidebar_Lists{
+	margin-top: 20px;
+}
+
+ul.Dashboard_Sidebar_Lists li{
+	padding: 15px 15px;
+	text-transform: uppercase;
+	font-family: times new roman;
+}
+
+ul.Dashboard_Sidebar_Lists li a{
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	font-size: 24px;
+}
+
+ul.Dashboard_Sidebar_Lists li a i{
+	font-size: 18px;
+}
+
+ul.Dashboard_Sidebar_Lists li.Menu_Active{
+	background: #ffff;
+	color: #ffff;
+}
+
+ul.Dashboard_Sidebar_Lists li:hover{
+	background: #ffff;
+	color: #ffff;
+	transition: 0.3s all;
+}
+
+/*----------TopNavigation page---------*/
+div.Dashboard_TopNav{
+	padding: 20px;
+	background: url('../images/loginbackground.jpg');
+}
+
+div.Dashboard_TopNav a{
+	color: #000000;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+a#logoutbutton{
+	float: right;
+}
+
+div.Dashboard_Content{
+	padding: 30px 20px 20px 20px;
+}
+
+/*----------Add User Page---------*/
+form::after{
+	content: '';
+	clear: both;
+	display: block;
+}
+
+form.appForm{
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.15);
+}
+
+form input.appFormInput{
+	width: 100%;
+	height: 33px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+form label{
+	font-family: times new roman;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 20px ;
+}
+
+div.appFormInput_Container{
+	margin-bottom: 10px;
+}
+
+div#adduser_Container{
+	padding-top: 10px;
+}
+
+button.adduser_Button{
+	padding: 15px;
+	font-size: 20px;
+	background: #2196F3;
+	border: none;
+	color: #ffff;
+	border-radius: 10px;
+	margin-top: 20px;
+	float: left;
+}
+
+div.Dashboard_Content_Main{
+	background: #fff;
+	min-height: 800px;
+	height: 100%;
+}
+
+p.responseMessage{
+	font-size: 22px;
+	text-align: center;
+	margin-top: 30px;
+	padding: 20px;
+}
+
+p.responseMessage__error{
+	background: rgba(128, 0, 0, 0.1);
+}
+
+p.responseMessage__success{
+	background: rgba(0, 128, 0, 0.1);
+}
+
+div.row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+div.column{
+	width: 100%;
+	padding: 0px 10px;
+}
+
+div.column-5{
+	width: 41.67%;
+}
+
+div.column-7{
+	width: 58.33%;
+}
+
+h1.section_header{
+	font-family: times new roman;
+	font-size: 20px;
+	border-left: 15px solid rgba(0, 0, 0, 0.15);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+table, th, td{
+	margin-top: 20px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table{
+	width: 100%;
+}
+
+table th{
+	text-transform: uppercase;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.15);
+}
+
+table td{
+	font-size: 18px;
+	text-align: center;
+}
+
+p.usercount{
+	text-align: right;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #2196F3;
+}
+
+/*----------Add Item Page---------*/
+
+button.addItem_Button{
+	padding: 15px;
+	font-size: 20px;
+	background: #2196F3;
+	border: none;
+	color: #ffff;
+	border-radius: 10px;
+	margin-top: 20px;
+	float: center;
+}
+
+table, th, td {
+  	border: 2px solid black;
+ 	border-collapse: collapse;
+}
+
+/*----------Dashboard Page---------*/
+main .Db{
+	padding: 20px;
+}
+
+main .date{
+	display: inline-block;
+	padding: 20px 20px;
+	font-size: 20px;
+}
+
+main .date input[type="date"]{
+	background: rgba(0, 0, 0, 0.15);
+}
+
+main .insights{
+	padding: 20px 20px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap:  10px;
+	border-color: rgba(0, 0, 0, 0.15);
+}
+
+main .insights > div{
+	background:rgba(0, 0, 0, 0.10) ;
+	padding: 20px;
+	border: solid;
+	border-color: rgba(0, 0, 0, 0.15);
+	border-radius: 10px;
+	margin-top: 10px;
+	box-shadow: var(--box-shadow);
+	transition:  all 300ms ease;
+
+}
+
+main .insights > div: hover{
+	box-shadow: none;
+}
+
+main .insights > div span{
+	background:  white;
+	padding: 10px 10px;
+	border-radius: 10px;
+	color: black;
+	font-size: 30px;
+}
+
+main .insights > div.middle{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+main .insights h3{
+	font-size: 35px;
+	text-align: left;
+	padding: 5px 10px;
+}
+
+main .insights h1{
+	font-size: 35px;
+	text-align: left;
+	padding: 5px 10px;
+}
+
+/*-------------------------------------*/
+
+
+
+
